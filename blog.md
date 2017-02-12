@@ -1,24 +1,30 @@
-# ´ÓURLÊäÈëµ½Ò³ÃæÕ¹ÏÖµÄ¹ý³Ì
+# ä»ŽURLè¾“å…¥åˆ°é¡µé¢å±•çŽ°çš„è¿‡ç¨‹
 
-×ÜÌåÀ´Ëµ·ÖÎªÒÔÏÂ¼¸¸ö¹ý³Ì:
-1. **DNS½âÎö**£¬°ÑÄúÊäÈëµÄÍøÖ··­Òë³ÉIPµØÖ·¡£
-    ²éÕÒË³ÐòÎª£ºä¯ÀÀÆ÷»º´æ¡¢ÏµÍ³»º´æ¡¢Â·ÓÉÆ÷»º´æ¡¢ISP DNS »º´æ¡¢µÝ¹éËÑË÷¡£
-2. **½¨Á¢TCPÁ¬½Ó**£¬Èý´ÎÎÕÊÖ¡£
-3. **·¢ËÍHTTPÇëÇó**¡£
-    ¹¹½¨HTTPÇëÇó±¨ÎÄ²¢Í¨¹ýTCPÐ­ÒéÖÐ·¢ËÍµ½·þÎñÆ÷Ö¸¶¨¶Ë¿Ú(HTTPÐ­Òé80/8080, HTTPSÐ­Òé443)¡£HTTPÇëÇó±¨ÎÄÊÇÓÉÈý²¿·Ö×é³É:?ÇëÇóÐÐ,?ÇëÇó±¨Í· ºÍ ÇëÇóÕýÎÄ¡£
-4. **·þÎñÆ÷ÏìÓ¦ÇëÇó²¢·µ»ØHTTP±¨ÎÄ**¡£
-    ³£¼ûµÄWeb·þÎñÆ÷ÓÐApache¡¢Nginx¡¢lls¡¢LighttpdµÈ¡£
-    ÍøÕ¾´¦ÀíÁ÷³Ì£ºMVCÄ£ÐÍ(model)-ÊÓÍ¼(view)-¿ØÖÆÆ÷(controller)
-5. **ä¯ÀÀÆ÷½âÎöäÖÈ¾Ò³Ãæ**
-    HTML×Ö·û´®±»ä¯ÀÀÆ÷½ÓÊÜºó±»Ò»¾ä¾ä¶ÁÈ¡½âÎö
-    ½âÎöµ½ link ±êÇ©ºóÖØÐÂ·¢ËÍÇëÇó»ñÈ¡css
-    ½âÎöµ½ script ±êÇ©ºó·¢ËÍÇëÇó»ñÈ¡ js£¬²¢Ö´ÐÐ´úÂë
-    ½âÎöµ½ img ±êÇ©ºó·¢ËÍÇëÇó»ñÈ¡Í¼Æ¬×ÊÔ´
-6. Á¬½Ó½áÊø¡£
+æ€»ä½“æ¥è¯´åˆ†ä¸ºä»¥ä¸‹å‡ ä¸ªè¿‡ç¨‹:
 
-£¨¸Ð¾õ¹ýÓÚ¼òµ¥µÄÀíÂÛ½éÉÜÈçURLÊÇÊ²Ã´£¬»òÕßÀíÂÛµã¿ÉÒÔÔ½½²Ô½¶àµÄµØ·½¶¼Ã»ÓÐÁÐ³ö£¬ÕâÀïÊÇÒÔ¿ÚÍ·±í´ïµÄ³¡¾°À´Ð´µÄ£©
+1. **DNSè§£æž**ï¼ŒæŠŠæ‚¨è¾“å…¥çš„ç½‘å€ç¿»è¯‘æˆIPåœ°å€ã€‚
+    æŸ¥æ‰¾é¡ºåºä¸ºï¼šæµè§ˆå™¨ç¼“å­˜ã€ç³»ç»Ÿç¼“å­˜ã€è·¯ç”±å™¨ç¼“å­˜ã€ISP DNS ç¼“å­˜ã€é€’å½’æœç´¢ã€‚
+    
+2. **å»ºç«‹TCPè¿žæŽ¥**ï¼Œä¸‰æ¬¡æ¡æ‰‹ã€‚
 
-²Î¿¼£º
+3. **å‘é€HTTPè¯·æ±‚**ã€‚
+    æž„å»ºHTTPè¯·æ±‚æŠ¥æ–‡å¹¶é€šè¿‡TCPåè®®ä¸­å‘é€åˆ°æœåŠ¡å™¨æŒ‡å®šç«¯å£(HTTPåè®®80/8080, HTTPSåè®®443)ã€‚HTTPè¯·æ±‚æŠ¥æ–‡æ˜¯ç”±ä¸‰éƒ¨åˆ†ç»„æˆ:?è¯·æ±‚è¡Œ,?è¯·æ±‚æŠ¥å¤´ å’Œ è¯·æ±‚æ­£æ–‡ã€‚
+    
+4. **æœåŠ¡å™¨å“åº”è¯·æ±‚å¹¶è¿”å›žHTTPæŠ¥æ–‡**ã€‚
+    å¸¸è§çš„WebæœåŠ¡å™¨æœ‰Apacheã€Nginxã€llsã€Lighttpdç­‰ã€‚
+    ç½‘ç«™å¤„ç†æµç¨‹ï¼šMVCæ¨¡åž‹(model)-è§†å›¾(view)-æŽ§åˆ¶å™¨(controller)
+    
+5. **æµè§ˆå™¨è§£æžæ¸²æŸ“é¡µé¢**
+    HTMLå­—ç¬¦ä¸²è¢«æµè§ˆå™¨æŽ¥å—åŽè¢«ä¸€å¥å¥è¯»å–è§£æž
+    è§£æžåˆ° link æ ‡ç­¾åŽé‡æ–°å‘é€è¯·æ±‚èŽ·å–css
+    è§£æžåˆ° script æ ‡ç­¾åŽå‘é€è¯·æ±‚èŽ·å– jsï¼Œå¹¶æ‰§è¡Œä»£ç 
+    è§£æžåˆ° img æ ‡ç­¾åŽå‘é€è¯·æ±‚èŽ·å–å›¾ç‰‡èµ„æº
+    
+6. è¿žæŽ¥ç»“æŸã€‚
+
+ï¼ˆæ„Ÿè§‰è¿‡äºŽç®€å•çš„ç†è®ºä»‹ç»å¦‚URLæ˜¯ä»€ä¹ˆï¼Œæˆ–è€…ç†è®ºç‚¹å¯ä»¥è¶Šè®²è¶Šå¤šçš„åœ°æ–¹éƒ½æ²¡æœ‰åˆ—å‡ºï¼Œè¿™é‡Œæ˜¯ä»¥å£å¤´è¡¨è¾¾çš„åœºæ™¯æ¥å†™çš„ï¼‰
+
+å‚è€ƒï¼š
 - https://segmentfault.com/a/1190000006879700
 - http://www.cnblogs.com/strick/p/5494869.html
-ÒÔºó»á¼ÌÐøÐÞ¸ÄÕûÀí¡£
+ä»¥åŽä¼šç»§ç»­ä¿®æ”¹æ•´ç†ã€‚
