@@ -15,12 +15,12 @@
 
 ### 发送HTTP请求
     构建HTTP请求报文并通过TCP协议中发送到服务器指定端口(HTTP协议80/8080, HTTPS协议443)。
-    HTTP请求报文是由三部分组成: 请求行、请求报头和请求正文。
+    HTTP请求报文是由三部分组成: 请求行、请求报头和请求正文。
     
     
 ### 服务器响应请求并返回HTTP报文
     常见的Web服务器有Apache、Nginx、lls、Lighttpd等。
-    网站处理流程：MVC模型(model)-视图(view)-控制器(controller)。
+    网站处理流程：MVC模型(model)-视图(view)-控制器(controller)。
     
     
 ### 浏览器解析渲染页面
